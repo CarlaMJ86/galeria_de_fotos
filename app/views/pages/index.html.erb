@@ -1,0 +1,94 @@
+<div id="main">
+    <header id="header">
+        <h1>Peliculas</h1>
+        <p>Aqui podras encontrar una seleccion de las ultimas peliculas estrenadas en el cine con su respectiva informacion</p>
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+    </header>
+    <%= link_to "INFORMACION DE PELICULAS", "movies/info" %>
+    <br>
+    <br>
+    <section id="thumbnails">
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/01.jpg') %>"
+                data-position="left center"><%= image_tag('thumbs/01.jpg', alt: '') %> </a>
+            <h2>ELEMENTOS</h2>
+            <p>ANIMACIÓN, TE, 1hrs 50min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/02.jpg') %>"><%= image_tag('thumbs/02.jpg', alt: '') %>
+            </a>
+            <h2>HAZME EL FAVOR</h2>
+           <p>COMEDIA, +14, 1hrs 43min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/03.jpg') %>"
+                data-position="left center"><%= image_tag('thumbs/03.jpg', alt: '') %> </a>
+            <h2>BOOGEYMAN: TU MIEDO ES REAL</h2>
+            <p>TERROR, +14, 1hrs 38mi</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/04.jpg') %>"><%= image_tag('thumbs/04.jpg', alt: '') %>
+            </a>
+            <h2>FLASH</h2>
+            <p>ACCIÓN, +14, 2hrs 24min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/05.jpg') %>"
+                data-position="left center"><%= image_tag('thumbs/05.jpg', alt: '') %> </a>
+            <h2>GUARDIANES DE LA GALAXIA VOL.3</h2>
+            <p>ACCIÓN, TE +7, 2hrs 29min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/06.jpg') %>"><%= image_tag('thumbs/06.jpg', alt: '') %>
+            </a>
+            <h2>LA SIRENITA</h2>
+            <p>AVENTURA, TE +7, 2hrs 15min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/07.jpg') %>"><%= image_tag('thumbs/07.jpg', alt: '') %></a>
+            <h2>RAPIDOS Y FURIOSOS X</h2>
+            <p>ACCIÓN, +14, 2hrs 21min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/08.jpg') %>"><%= image_tag('thumbs/08.jpg', alt: '') %>
+            </a>
+            <h2>SPIDER-MAN A TRAVÉS DEL SPIDER-VERSO</h2>
+            <p>ANIMACIÓN, TE +7, 2hrs 20min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/09.jpg') %>"><%= image_tag('thumbs/09.jpg', alt: '') %></a>
+            <h2>SUPER MARIO BROS: LA PELÍCULA</h2>
+            <p>ANIMACIÓN, TE, 1hrs 32min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/10.jpg') %>"><%= image_tag('thumbs/10.jpg', alt: '') %>
+            </a>
+            <h2>TRANSFORMERS: EL DESPERTAR DE LAS BESTIAS</h2>
+            <p>ANIMACIÓN, TE, 2hrs 7min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/11.jpg') %>"><%= image_tag('thumbs/11.jpg', alt: '') %></a>
+            <h2>KRAKENS Y SIRENAS: CONOCE A LOS GILLMAN</h2>
+            <p>ANIMACIÓN, TE, 1hrs 40min</p>
+        </article>
+        <article>
+            <a class="thumbnail" href="<%= image_path('fulls/12.jpg') %>"><%= image_tag('thumbs/12.jpg', alt: '') %>
+            </a>
+            <h2>LA NOCHE DEL DEMONIO: LA PUERTA ROJA</h2>
+            <p>TERROR, +14, 2hrs 0min</p>
+        </article>
+    </section>
+
+    <footer id="footer">
+        <ul class="copyright">
+            <li>&copy; Untitled.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+        </ul>
+    </footer>
+
+</div>
